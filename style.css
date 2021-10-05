@@ -102,6 +102,10 @@ input{
 }
 .input input:nth-child(2){  
     margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+.info1 .input button{
+    margin-top: 0;
 }
 .btnin,.btnup{
     display: inline-block;
@@ -109,7 +113,7 @@ input{
     color: white;
     font-size: 0.7rem;
     padding: 0.7em 2.8em;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .hello{
     margin-bottom: 0.8em;
@@ -122,6 +126,13 @@ input{
     background-color: transparent;
     border: 1px solid white;
 }
+button{
+    margin-top: 1.3em;
+    border: none;
+}
+.info1,.info2,.text1,.text2{
+    padding: 4em 1em;
+}
 .hide{
     display: none;
 }
@@ -130,6 +141,7 @@ input{
         padding-top: 2em;
     }
     section{
+        width: 70%;
         grid-template-columns: 1fr;
     }
     .info1,.info2,.text1,.text2{
